@@ -4,7 +4,7 @@ public class Main {
         System.out.println(add(5, 3));          // Output: 8
         System.out.println(subtract(5, 3)); // Output: 2
         System.out.println(multiply(5, 3)); // Output: 15
-        System.out.println(factorial(5));     // Output: 120    
+        System.out.println(factorial(5));     // Output: 120
     }
 
     /**
@@ -27,7 +27,7 @@ public class Main {
      * TODO: Write a method to multiply two integers.
      */
     public static int multiply(int a, int b) {
-        // your code her
+        // your code here
         return a*b;
     }
 
