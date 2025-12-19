@@ -19,7 +19,7 @@ public class Main {
      * TODO: Write a method to subtract two integers.
      */
     public static int subtract(int a, int b) {
-        // your code her
+        // your code here
         return a-b;
     }
 
