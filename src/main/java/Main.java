@@ -12,7 +12,7 @@ public class Main {
      */
     public static int add(int a, int b) {
         // your code here
-        return 0;
+        return a + b;
     }
 
     /**
@@ -20,7 +20,7 @@ public class Main {
      */
     public static int subtract(int a, int b) {
         // your code here
-        return 0;
+        return a-b;
     }
 
     /**
@@ -28,7 +28,7 @@ public class Main {
      */
     public static int multiply(int a, int b) {
         // your code here
-        return 0;
+        return a*b;
     }
 
     /**
@@ -36,6 +36,9 @@ public class Main {
      */
     public static int factorial(int n) {
         // your code here
-        return 0;
+        if(n <= 1) return 1;
+        return n * factorial(n-1);
+
+        //Hey komischer Dinobot!
     }
 }
